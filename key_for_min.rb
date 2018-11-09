@@ -21,5 +21,10 @@ def key_for_min_value(name_hash)
 		end
 	end
 
+  name_hash.each do |key,value|
+    if value = ""
+      wanted_key = nil
+    end
+
 wanted_key
 end
