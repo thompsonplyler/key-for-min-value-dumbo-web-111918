@@ -3,21 +3,23 @@ require "pry"
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-value = ""
-lowest_value = []
+	wanted_key = ""
+	value_array  = []
 
-name_hash.each do |key,value|
-  lowest_value << value
-end
-sorted_array = []
+	name_hash.each do |key,value|
+		value_array << value
+	end
 
-sorted_array << lowest_value.sort
+	wanted_value = value_array.sort[0]
 
-name_hash.each do |key,value|
-  if value == sorted_array[0]
-    value == key
-  end
-binding.pry
-value
-end
+	name_hash.each do |key,value|
+		if wanted_value == value
+			puts "The key you want is #{key}."
+			wanted_key = key
+		else
+			puts "They key you want is not #{key}."
+		end
+	end
+
+wanted_key
 end
