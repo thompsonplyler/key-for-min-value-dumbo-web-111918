@@ -15,7 +15,7 @@ sorted_array << lowest_value.sort
 
 name_hash.each do |key,value|
   if value == sorted_array[0]
-    value = key
+    value == key
   end
 binding.pry
 value
