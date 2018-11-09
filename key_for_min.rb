@@ -12,7 +12,11 @@ end
 sorted_array = []
 
 sorted_array << lowest_value.sort
-binding.pry
+
+name_hash.each do |key,value|
+  if value == sorted_array[0]
+    value = key
+  end
 
 
 end
