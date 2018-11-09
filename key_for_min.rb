@@ -9,8 +9,9 @@ lowest_value = []
 name_hash.each do |key,value|
   lowest_value << value
 end
+sorted_array = []
 
-lowest_value.sort
+sorted_array << lowest_value.sort
 binding.pry
 
 
