@@ -25,6 +25,7 @@ def key_for_min_value(name_hash)
     if value = ""
       wanted_key = nil
     end
+  end
 
 wanted_key
 end
