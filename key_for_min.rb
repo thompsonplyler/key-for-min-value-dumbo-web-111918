@@ -13,9 +13,5 @@ end
 lowest_value.sort
 binding.pry
 
-name_hash.each do |key,value|
-  #if
-  end
-end
 
 end
