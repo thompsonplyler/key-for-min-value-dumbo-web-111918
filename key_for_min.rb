@@ -17,6 +17,6 @@ name_hash.each do |key,value|
   if value == sorted_array[0]
     value = key
   end
-
-
+binding.pry
+value
 end
