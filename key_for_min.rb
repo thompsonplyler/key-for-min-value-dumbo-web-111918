@@ -8,7 +8,8 @@ lowest_value = []
 
 name_hash.each do |key,value|
   lowest_value << value
-  binding.pry
+
 end
+binding.pry
 
 end
