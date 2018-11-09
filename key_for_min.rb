@@ -16,7 +16,6 @@ def key_for_min_value(name_hash)
 		if wanted_value == value
 			puts "The key you want is #{key}."
 			wanted_key = key
-			puts "They key you want is not #{key}."
 		end
 	end
 
