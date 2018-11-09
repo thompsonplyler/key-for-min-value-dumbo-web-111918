@@ -15,6 +15,7 @@ binding.pry
 
 name_hash.each do |key,value|
   if
+  end
 end
 
 end
